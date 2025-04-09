@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, world!")
 
-	a := []int{1, 2, 3, 4, 5}
+	foo := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
 
-	fmt.Println(twoSum(a, 9))
+	groupAnagrams(foo)
 }
