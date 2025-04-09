@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, world!")
 
-	foo := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
+	foo := []int{1, 1, 2, 2, 3}
 
-	groupAnagrams(foo)
+	fmt.Println(topKFrequent(foo, 2))
 }
